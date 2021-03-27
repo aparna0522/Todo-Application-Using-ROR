@@ -1,24 +1,49 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: ruby 2.6.3p62 
+* Rails version: Rails 6.1.3
 
-Things you may want to cover:
+<h2>How to run this project?</h2>
+1. Check if you have rbenv, node, yarn, bundler, ruby, rails installed on your local machine using the following commands 
 
-* Ruby version
+```
+rbenv --version 
+node --version
+yarn --version
+bundler --version
+ruby --version
+rails --version
+```
 
-* System dependencies
+2. Install rbenv, node, yarn, bundler, ruby, rails on your local machine. 
 
-* Configuration
+```
+brew install rbenv
+brew install node
+brew install npm
+brew install yarn
+brew install rails
+brew install bundler
+brew install ruby
+```
 
-* Database creation
+3. Install the webpacker using the following command.
 
-* Database initialization
+```
+bundle exec rake webpacker:install
+```
 
-* How to run the test suite
+4. Now use the following commands to set up the database
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+bundle e rails db:setup
+bundle e rails db:migrate
+```
 
-* Deployment instructions
+5. Now run the project using the following command 
 
-* ...
+```
+rails s
+OR 
+bundle execute rails s
+```
