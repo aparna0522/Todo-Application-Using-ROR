@@ -48,8 +48,9 @@ bundle execute rails s
 ```
 
 <h4>Some possible refinements:</h4>
+
 1. Adding the dates and bifurcating the todos as per that. 
 2. Avoid creation of blank todos. 
 3. Possibility of deleting an entire todo list (which has todo items in it) directly, without having to delete them one by one. 
 
-Project Inspired from: https://www.youtube.com/watch?v=fd1Vn-Wvy2w by Mackenzie Child
+<b>Project Inspired From:</b> https://www.youtube.com/watch?v=fd1Vn-Wvy2w by Mackenzie Child
