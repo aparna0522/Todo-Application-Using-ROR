@@ -25,11 +25,7 @@ html {
 
 body {
  	height: 100%;
-  background: -webkit-linear-gradient(40deg, #f0ad4e 10%, #EAECC6 100%);
-  background:    -moz-linear-gradient(40deg, #f4b843 10%, #EAECC6 100%);
-  background:     -ms-linear-gradient(40deg, #f6c436 10%, #EAECC6 100%);
-  background:      -o-linear-gradient(40deg, #f6d126 10%, #EAECC6 100%);
-  background:         linear-gradient(40deg, #f2de0d 10%, #EAECC6 100%);
+  background-color: white;
   font-family: 'Lato', sans-serif;
 }
 
@@ -53,7 +49,7 @@ body {
 .container {
 	width: 50%;
 	max-width: 750px;
-	background: $white_opaque;
+	background: linear-gradient(to right top, #f0ac4eb6, #f4b943be, #f6c336a4, #f6d026b0, #f2df0dd7);
 	margin: 3em auto 0 auto;
 	border-radius: 7px;
 	-webkit-box-shadow: 0 0 4px 3px rgba(0,0,0,.3);
