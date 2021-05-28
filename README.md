@@ -1,4 +1,4 @@
-# My First Ruby on Rails Application: Todo-Organizer
+# Todo-Organizer
 * Ruby version: ruby 2.6.3p62 
 * Rails version: Rails 6.1.3
 
